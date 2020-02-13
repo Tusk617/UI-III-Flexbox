@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 
+	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -135,4 +135,24 @@ button {
 
 footer p {
 	text-align: center;
+}
+
+/*Here begins the services.html page*/
+
+.services-header-img {
+	width: 100%;
+	padding: 2% 0;
+}
+
+.services-heading {
+	font-size: 25px;
+}
+
+.boxes {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.services-section {
+	flex: 0 50%;
 }
