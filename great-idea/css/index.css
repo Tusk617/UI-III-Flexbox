@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 970px;
+	margin: 1% 25%;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+}
+
+nav a {
+	width: 100%;
+	justify-content: space-evenly;
+	justify-content: center;
+	text-decoration: none;
+	color: gray;
+}
+
+header img {
+	display: flex;
+}
+
+.getStarted {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.getStarted img {
+	padding-top: 20px;
+}
+
+.container {
+	margin-left: 10%;
+}
+
+.gsHeading {
+	font-size: 75px;
+	margin-top: 5%;
+	text-align: center;
+}
+
+button {
+	margin-left: 28%;
+	font-size: 25px;
+	background: transparent;
+	border: 1px solid black;
+}
+
+.one {
+	display: flex;
+	padding-bottom: 3%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.two {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 3%;
+}
+
+footer p {
+	text-align: center;
+}
