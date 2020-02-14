@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	border: 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -33,8 +33,8 @@ body {
 	width: 970px;
 	margin: 1% 25%;
 }
-ol, ul {
-	list-style: none;
+/*ol, ul {
+	list-style: none;*/
 }
 blockquote, q {
 	quotes: none;
@@ -111,7 +111,7 @@ header img {
 	text-align: center;
 }
 
-button {
+#index-button {
 	margin-left: 28%;
 	font-size: 25px;
 	background: transparent;
@@ -151,8 +151,43 @@ footer p {
 .boxes {
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .services-section {
-	flex: 0 50%;
+	display: flex;
+	width: 40%;
+	margin: 2% 0;
+	background: #EAEAEA;
+	border: 1px solid black;
+	padding: 1.5%;
+}
+
+.boxes button {
+	border: 1px solid black;
+	margin-top: 4%;
+	padding: 2% 6%;
+}
+
+footer {
+	display:flex;
+	margin-bottom: 5%;
+}
+
+footer ul {
+	margin-left: 5%;
+	padding-top: 3%;
+}
+
+footer ul li {
+	margin: 4% 0;
+}
+
+footer img {
+	order: 1;
+	padding-left: 5%;
+}
+
+.copyright {
+	text-align: center;
 }
